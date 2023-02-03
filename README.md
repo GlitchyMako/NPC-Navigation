@@ -111,13 +111,6 @@ The NPC Navigation code uses the A* algorithm to find the shortest path from the
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-
-* Python 3.x
-* OpenCV 4.x
-* Numpy
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -170,7 +163,7 @@ Here's a code snippet showing the implementation of the cost function:
 ```python
 def cost(self, current, next):
     return manhattan_distance(current, next)
-
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
