@@ -269,8 +269,6 @@ class Dijkstra:
     return self.came_from, self.cost_so_far
 ```
 
-```sh
-```
 The NPC Navigation code is written in Python and makes use of a graph data structure to represent the game world. The nodes in the graph represent the different locations in the game world, and the edges represent the paths between these locations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
