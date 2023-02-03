@@ -164,7 +164,6 @@ Here's a code snippet showing the implementation of the cost function:
 def cost(self, current, next):
     return manhattan_distance(current, next)
 ```
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Customization -->
